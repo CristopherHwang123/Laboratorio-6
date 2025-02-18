@@ -85,7 +85,7 @@ public:
         capacidad = _capacidad;
     }
 
-    void obtenerInfo() override { // Sobreescribe la función
+    void obtenerInfo() override {
         Vehiculo::obtenerInfo();
         cout << "La capacidad es de: " << capacidad << " KG" << endl;
     }
